@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Scraped output (regenerate by running the script)
+data/*.csv
+data/*.xlsx
+!data/.gitkeep
